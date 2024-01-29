@@ -37,4 +37,34 @@ export const styles = {
     color: theme.palette.getContrastText(deepPurple[500]),
     backgroundColor: deepPurple[500],
   },
+  form: {
+    "& > .MuiInputBase-root": {
+      backgroundColor: theme.palette.common.white,
+    },
+  },
+  formContainer: {
+    marginTop: theme.spacing(2),
+    display: "flex",
+    flexDirection: "column",
+    rowGap: theme.spacing(2),
+  },
+  coinContainer: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
+    columnGap: theme.spacing(1),
+  },
+  coin: {
+    display: "block",
+    margin: "0 auto",
+  },
+  coinInnerContainer: {
+    minWidth: 54,
+  },
+  won: {
+    color: theme.palette.success["main"],
+  },
+  lost: {
+    color: theme.palette.error["main"],
+  },
 };

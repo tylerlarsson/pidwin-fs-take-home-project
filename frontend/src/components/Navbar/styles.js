@@ -34,6 +34,11 @@ export const styles = {
     display: "flex",
     alignItems: "center",
   },
+  credentialContainer: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+  },
   purple: {
     color: theme.palette.getContrastText(deepPurple[500]),
     backgroundColor: deepPurple[500],
